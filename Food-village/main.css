@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    background-color: rgb(18, 33, 56);
+}
+/* first part */
+#section1{
+    display: flex;
+    flex-direction: column;
+   background: url('./image/bg.jpg') no-repeat center center/cover;
+   height: 550px;
+   color: white;
+}
+#img1 img {
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+    margin: 3px 82px;
+}
+    #p1{
+        line-height: 0;
+        margin: 2px;
+        padding: 2px;
+    }
+        
+        
+
+#navbar{
+    margin: 10px 0px;
+    position: fixed;
+    left: 165px;
+    background-color: rgba(0, 0, 0,0.5);
+border-radius: 20px;
+    padding: 10px;
+}
+    
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    padding:10px 30px ;
+   
+}
+#navbar a:hover{
+    background: white;
+    border-radius: 20px;
+    color: black;
+    font-size: rem;
+   
+}
+#head{
+    display: flex;
+}
+#middle{
+    display:block ;
+    margin: 140px auto;
+}
+#middle h1{
+    font-size: 3rem;
+}
+
+#middle h1,p{
+    text-align: center;
+}
+/* part two */
+#section2{
+    text-align: center;
+    margin-top: 34px;
+    color: white;
+  
+}
+#services-item{
+    display: flex;
+    justify-content: center;
+
+}
+
+#services-item .item {
+    width: 450px;
+    height:362px;
+    margin: 10px;
+   background-color:  rgb(60 70 74);
+   color: white;
+   border-radius: 20px;
+}
+
+#services-item img {
+    height: 130px;
+    width: 160px;
+    padding: 13px;
+    display: block;
+    margin: auto;
+}  
+#services-item h3,p{
+    text-align: center;
+    padding: 4px;
+}
+/* section three */
+#section3{
+height: 300px;
+
+}
+#section3-div{
+    display: flex;
+   /* flex-wrap: wrap; */
+   justify-content: center;
+}
+#clients{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+#section3-div img {
+    height: 144px;
+    width: 160px;
+    margin: 13px;
+    border-radius: 20px;
+}
+#section4{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+#form input{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+#btn{
+    display: block;
+    margin: auto;
+    padding: 7px 34px;
+    border-radius: 20px;
+
+}
+#btn:hover{
+    background-color: rgb(192, 167, 167);
+    cursor:pointer;
+
+}
+footer{
+    color: white;
+    margin: 34px;
+    padding: 34px;
+    background-color: rgb(66, 88, 136);
+    border-radius: 15px;
+}

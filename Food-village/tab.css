@@ -1,0 +1,42 @@
+
+#img1 img {
+  
+    margin: 3px 25px;
+}
+#navbar a {
+   
+    padding: 10px 10px;
+}
+#middle h1 {
+    font-size: 2rem;
+}
+#services-item .item {
+    width: 161px;
+    height: 460px;
+    margin: 3px;
+   
+}
+#services-item h3, p {
+    
+    padding: 0px;
+}
+#services-item img {
+    height: 85px;
+    width: 102px;
+
+    
+}
+#section3-div img {
+    height: 65px;
+    width: 80px;
+     margin: 9px;
+}
+#form input{
+    width: 338px;
+}
+#btn {
+    padding: 5px 24px;
+}
+#section3 {
+    height: 175px;
+}
